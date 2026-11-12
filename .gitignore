@@ -1,0 +1,13 @@
+.DS_Store
+*.log
+logs/
+db/
+data/
+*.sqlite
+*.db
+*.csv
+config.json
+tokens.json
+__pycache__/
+*.pyc
+.env

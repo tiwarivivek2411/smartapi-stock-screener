@@ -1,0 +1,17 @@
+{
+    "credentials": {
+        "api_key": "YOUR_ANGEL_ONE_API_KEY",
+        "client_code": "YOUR_CLIENT_CODE",
+        "secret_key": "YOUR_SECRET_KEY",
+        "mpin": "YOUR_MPIN"
+    },
+    "screener": {
+        "symbol_file": "midcap_tokens.json",
+        "interval": "FIVE_MINUTE",
+        "lookback_days": 60,
+        "min_potential_move_pct": 0.8,
+        "max_potential_move_pct": 15.0,
+        "min_daily_volume": 10000,
+        "output_file": "screener_results.csv"
+    }
+}
